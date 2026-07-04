@@ -1,0 +1,6 @@
+interface:
+  display_name: "Teach"
+  short_description: "Run a stateful teaching workspace"
+  default_prompt: "Use $teach to teach me this topic over multiple sessions."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Stateless plan interview"
+  default_prompt: "Use $grill-me to interview me about this non-repo plan before we build."
+policy:
+  allow_implicit_invocation: false

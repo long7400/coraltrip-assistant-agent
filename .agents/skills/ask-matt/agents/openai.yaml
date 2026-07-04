@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ask Matt"
+  short_description: "Choose the right engineering flow"
+  default_prompt: "Use $ask-matt to choose the right skill for this task."
+policy:
+  allow_implicit_invocation: false

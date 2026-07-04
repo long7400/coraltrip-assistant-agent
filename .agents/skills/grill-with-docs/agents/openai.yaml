@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill With Docs"
+  short_description: "Repo interview plus docs"
+  default_prompt: "Use $grill-with-docs to sharpen this repo-backed plan and update project docs."
+policy:
+  allow_implicit_invocation: false

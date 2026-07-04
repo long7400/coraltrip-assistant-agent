@@ -1,0 +1,6 @@
+interface:
+  display_name: "To Issues"
+  short_description: "Split plans into local issues"
+  default_prompt: "Use $to-issues to split this PRD or plan into tracer-bullet issues."
+policy:
+  allow_implicit_invocation: false

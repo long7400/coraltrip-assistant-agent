@@ -1,0 +1,6 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Write a session handoff note"
+  default_prompt: "Use $handoff to write a handoff note for the next agent session."
+policy:
+  allow_implicit_invocation: false
