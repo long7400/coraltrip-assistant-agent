@@ -2,7 +2,7 @@
 
 ## Project Scope
 
-- This repository is `coraltrip-assistant-agent`, a Kotlin/Maven workspace for the CoralTrip Assistant Agent platform.
+- This repository is `coraltrip-assistant-agent`, a Java/Maven workspace for the CoralTrip Assistant Agent platform.
 - Read `CONTEXT.md`, `spec-prd/PRD_CoralTrip_Assistant_Agent_v2.0.md`, and `spec-prd/SPEC_CoralTrip_Assistant_Agent_v2.0.md` before making product, domain, architecture, or planning decisions.
 - Treat `spec-prd/` as the current product and technical source material unless a newer accepted ADR or user instruction supersedes it.
 
@@ -45,7 +45,7 @@
 - Preferred focused checks:
   - `mvn -q -DskipTests compile`
   - `mvn test`
-- Keep Kotlin package naming under `com.coraltrip` unless the architecture documents require a narrower package.
+- Keep Java package naming under `com.coraltrip` unless the architecture documents require a narrower package.
 - Avoid framework or platform migrations unless the task explicitly asks for them.
 
 ## Product And Architecture Rules

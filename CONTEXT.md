@@ -122,5 +122,5 @@ Avoid: optimizing user-facing UX while leaving agents without feedback loops or 
 
 ## Open Questions
 
-- The repo currently has a Kotlin/Maven skeleton. The SPEC targets Spring Boot/Spring AI architecture, but implementation dependencies are not yet aligned with that target.
+- The repo currently has a Java/Maven skeleton targeting Java 21. The SPEC targets Spring Boot/Spring AI architecture, but implementation dependencies are not yet aligned with that target.
 - Issue tracking is configured as local markdown until a GitHub/GitLab/other tracker is explicitly chosen.
