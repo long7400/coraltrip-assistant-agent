@@ -122,5 +122,6 @@ Avoid: optimizing user-facing UX while leaving agents without feedback loops or 
 
 ## Open Questions
 
-- The repo currently has a Java/Maven skeleton targeting Java 21. The SPEC targets Spring Boot/Spring AI architecture, but implementation dependencies are not yet aligned with that target.
+- The repo currently has a Java/Maven DDD modular-monolith skeleton targeting Java 21. `apps/coraltrip-app` is the only runnable application; `modules/` contains internal DDD modules that are not microservices.
+- Spring Boot/Spring AI implementation dependencies are not yet aligned with the SPEC target.
 - Issue tracking is configured as local markdown until a GitHub/GitLab/other tracker is explicitly chosen.
